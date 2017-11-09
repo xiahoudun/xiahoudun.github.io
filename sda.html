@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var head = document.getElementsByTagName("head")[0];
+			var num = document.devicePixelRatio<1?1:1/document.devicePixelRatio;
+			var meta = document.createElement("meta");
+			meta.name = "viewport";
+			meta.content = "width=device-width,user-scalable=yes,initial="+num+",minimum-scale="+num+",maximum="+num;
+			head.appendChild(meta)
+		</script>
+		<script type="text/javascript">
+			var html1 = document.getElementsByTagName("html")[0];
+			var widht = window.innerWidth;
+			html1.style.fontSize = widht/16+"px";
+		</script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#box{
+				height: 2.025rem;
+				width: 24.925rem;
+				background: red;
+				padding: 0.4rem 1rem 0.675rem 1rem;
+				font-size: 0.85rem;
+			}
+			.top-left-span{
+				height: ;
+				width: ;
+				background: url;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<span class="top-left-span">
+				
+			</span>
+		</div>
+	</body>
+</html>
